@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+ ul,
+li {
+   list-style: none; 
+   margin: 0;
+   padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1,
+h2,
+h3{
+    margin: 0;
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.container{
+    max-width: 865px;
+    padding: 5px;
+}
+
+.photo{
+    background-image: url(img/bebra.png);
+}
