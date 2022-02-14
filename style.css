@@ -92,3 +92,18 @@ flex-shrink: 0;
     font-size: 180%;
     padding-bottom: 30px;
 }
+
+.recents-post__text{
+    font-size: 200%;
+    padding-bottom: 15px;
+}
+
+.recent-posts__link{
+    color: aqua;
+    font-size: 150%;
+}
+
+.recent-posts__tittle{
+    font-size: 150%;
+}
+
