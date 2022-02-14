@@ -1,3 +1,94 @@
 * {
     box-sizing: border-box;
 }
+ ul,
+li {
+   list-style: none; 
+   margin: 0;
+   padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1,
+h2,
+h3{
+    margin: 0;
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container{
+    max-width: 865px;
+    padding: 5px;
+    margin:  0 auto;
+}
+
+.header__container {
+    min-width: 1032px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin-left: 33px;
+}
+
+.photo{
+    background-image: url(img/bebra.png);
+}
+
+.about__container{
+    display: flex;
+}
+
+.about__avatar{
+position: absolute;
+width: 243px;
+height: 243px;
+left: 760px;
+top: 210px;
+overflow: hidden;
+flex-shrink: 0;
+}
+
+.about__img{
+    position: absolute;
+    width: 243px;
+    height: 243px;
+    left: 760px;
+    top: 210px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.button_download-btn{
+    background-color: brown;
+    border-style: none;
+    padding: 17px;
+}
+
+.text_title{
+    font-size: 180%;
+    padding-bottom: 30px;
+}
+
+.recents-post__text{
+    font-size: 180%;
+    padding-bottom: 30px;
+}
