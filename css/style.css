@@ -58,16 +58,23 @@ h3{
 }
 
 .about__avatar{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    overflow: hidden;
+position: absolute;
+width: 243px;
+height: 243px;
+left: 760px;
+top: 210px;
+overflow: hidden;
+flex-shrink: 0;
 }
 
 .about__img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    position: absolute;
+    width: 243px;
+    height: 243px;
+    left: 760px;
+    top: 210px;
+    overflow: hidden;
+    flex-shrink: 0;
 }
 
 .button_download-btn{
@@ -79,4 +86,44 @@ h3{
 .text_title{
     font-size: 180%;
     padding-bottom: 30px;
+}
+
+.recents-post__text{
+    font-size: 180%;
+    padding-bottom: 30px;
+}
+
+.recents-post__text{
+    font-size: 200%;
+    padding-bottom: 15px;
+}
+
+.recent-posts__link{
+    color: aqua;
+    font-size: 150%;
+}
+
+.recent-posts__tittle{
+    font-size: 150%;
+}
+
+.portfolio__subtitle{
+    font-size: 190%;
+}
+
+.portfolio__separator{
+    font-size: 185%;
+}
+
+.portfolio__text{
+    left: 760px;
+    top: 210px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: darkgray;
+}
+
+.portfolio__info{
+    background-color: gray;
+    
 }
