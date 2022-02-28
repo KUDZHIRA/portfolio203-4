@@ -33,6 +33,7 @@ h3{
     max-width: 865px;
     padding: 5px;
     margin:  0 auto;
+    padding-top: 50px;
 }
 
 .header__container {
@@ -126,4 +127,63 @@ flex-shrink: 0;
 .portfolio__info{
     background-color: gray;
     
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper{
+        background: none;
+        background-color: aquamarine;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        background-color: white
+    }
+}
+
+.container_rec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 865px;
+    padding: 5px;
+    margin:  0 auto;
+    padding-top: 50px;
+}
+
+.footer{
+width: 1152px;
+height: 182px;
+left: 2px;
+top: 1877px;
+}
+
+.media_item{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: calc(50% - 30px/2 - 102px);
+top: calc(50% - 30px/2 - 25px);
+}
+
+.copyright{
+    position: absolute;
+height: 21px;
+left: 40.28%;
+right: 40.45%;
+top: calc(50% - 21px/2 + 26.5px);
+
+font-family: Heebo;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+/* Dark */
+
+color: #21243D;
 }
