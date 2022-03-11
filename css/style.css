@@ -50,7 +50,43 @@ h3{
     margin-left: 33px;
 }
 
-.photo{
+.header__burger{
+    width: 30px;
+    height: 20px;
+    background-color:white;
+}
+
+.header__burger-el{
+    background-color: #21243D;
+    height: 2px;
+    width: 100%;
+    position: relative;
+}
+
+.header__burger-el::before,
+.header__burger-el::after{
+    background-color: #21243D;
+    height: 2px;
+    width: 100%;
+    content: "";
+    position: absolute;
+}
+
+.header__burger-el::before{
+    top: -9px;
+}
+
+.header__burger-el::after{
+    bottom: -9px;
+}
+
+@media (max-width: 480px) {
+    .nav{
+        display: none;
+    }
+}
+
+    .photo{
     background-image: url(img/bebra.png);
 }
 
@@ -186,4 +222,60 @@ text-align: center;
 /* Dark */
 
 color: #21243D;
+}
+
+.work__img-wrap{
+    max-width: 246px;
+    max-height: 180px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.work__img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.work{
+    display: flex;
+    border-bottom: 1px solid grey;
+    padding: 33px 0;
+}
+
+.work__subtitle{
+    display: flex;
+}
+
+.work__date{
+    margin-right: 26px;
+    background: #21243D;
+    border-radius: 16px;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 18px;
+    min-width: 62px;
+    min-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 480px) {
+    .featured__works{
+        display: flex;
+        width: 100%;
+        overflow: auto;
+    }
+
+    .work{
+        max-width: 100%;
+        flex-direction: column;
+        flex-shrink: 0;
+        padding: 20px 13px;
+    }
+    .work__img-wrap{
+        max-width: 100%;
+        max-height: 230px;
+    }
 }
